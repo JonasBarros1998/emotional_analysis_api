@@ -1,0 +1,13 @@
+version: '2.2'
+services:
+    emotional_analysis:
+        build:
+            dockerfile: dockerfile
+            context: .
+        image: jonasflorencio/emotional_analysis
+        container_name: emotional_analysis
+        volumes: 
+            - C:\Users\Jonas\desenvolvimento\emotional_analysis:/home/jonas/Code
+        ports: 
+            - "5000:5000"
+
