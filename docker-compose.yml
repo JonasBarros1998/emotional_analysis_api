@@ -7,7 +7,7 @@ services:
         image: jonasflorencio/emotional_analysis
         container_name: emotional_analysis
         volumes: 
-            - C:\Users\Jonas\desenvolvimento\emotional_analysis:/home/jonas/Code
+            - C:\Users\Jonas\desenvolvimento\emotional_analysis_api:/home/jonas/Code
         ports: 
             - "5000:5000"
 
