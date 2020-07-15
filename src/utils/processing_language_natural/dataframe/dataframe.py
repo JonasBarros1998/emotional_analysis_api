@@ -4,7 +4,7 @@ dataframe_series = []
 
 def read_database(file):
     """
-    Função para fazer a leitura do dataframe apartir de uma ulr, e retornar um dataframe criado pelo pandas
+    Função para fazer a leitura do dataframe a partir de uma ulr, e retornar um dataframe criado pelo pandas
 
     `file`: recebe uma estrutura de dados json
     """

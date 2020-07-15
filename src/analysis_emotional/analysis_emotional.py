@@ -1,6 +1,5 @@
 from nltk import tokenize, FreqDist
 from wordcloud import WordCloud
-import matplotlib.pyplot as plt
 from src.utils.load_files.index import load_file_json
 from src.processing_language_natural.dataframe.dataframe import read_database
 from src.processing_language_natural.text_processing.processing import main

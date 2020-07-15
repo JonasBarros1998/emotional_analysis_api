@@ -4,7 +4,6 @@ from src.analysis_emotional.analysis_emotional import EmotionalAnalisys
 import json
 
 @app.route('/api/v1/emotional_analysis', methods=["POST"])
-
 def emotional_analysis():
     datas = request.json
     url = datas["url"]

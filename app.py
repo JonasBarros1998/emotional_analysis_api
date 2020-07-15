@@ -2,7 +2,7 @@ import os
 from pathlib import Path
 from settings import *
 from flask import Flask, jsonify
-#from flask_cors import CORS
+from flask_cors import CORS
 
 port = os.getenv("PORT")
 domain = os.getenv("DOMAIN")
